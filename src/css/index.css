@@ -1,2 +1,5 @@
 body{color:#f00}
-.img{ width:100px; height:100px; background: url('./../images/logo.png'); background-size: contain}
+.img{ width:100px; height:100px; background: url('./../images/logo.png');
+     background-size: contain; transform:translateX(20px)}
+     .cc{width:200px;}
+     .nav{ background: #f00}

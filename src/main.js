@@ -1,2 +1,12 @@
 import css from './css/index.css'
-document.getElementById('title').innerHTML = 'hello world1refsdchhcxcxxhhhxzf'
+import less from './css/black.less'
+import sass from './css/red.scss'
+{
+    let jspangString = 'Hello Webpack1'
+    // document.getElementById('title').innerHTML = jspangString;
+    $('#title').html(jspangString)
+}
+
+var json =require('./db.json');
+document.getElementById("json").innerHTML= json.name;
+
